@@ -213,6 +213,11 @@ footer h2 {
     letter-spacing: 1px;
 }
 
+/* Ensure footer contact text uses a system font that contains accented glyphs */
+.contact-info .info-item p {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 .copyright {
     font-size: 0.8rem;
     color: #777;
