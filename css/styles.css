@@ -172,6 +172,17 @@ header h1 {
     color: #555;
 }
 
+/* Truncate gallery descriptions to 3 lines with ellipsis */
+.gallery-grid .art-piece p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.35em * 3);
+}
+
 /* Footer */
 footer {
     background-color: #111;
