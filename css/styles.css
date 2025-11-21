@@ -218,6 +218,21 @@ footer h2 {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Instagram link: icon + text alignment */
+.contact-info .info-item a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: inherit;
+}
+
+.contact-info .info-item a svg {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    fill: currentColor;
+}
+
 .copyright {
     font-size: 0.8rem;
     color: #777;
