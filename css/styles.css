@@ -233,6 +233,29 @@ footer h2 {
     fill: currentColor;
 }
 
+/* Fancy hover: Instagram-like gradient and subtle lift */
+.contact-info .info-item a {
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: background 240ms ease, transform 160ms ease, color 240ms ease;
+}
+
+.contact-info .info-item a svg {
+    transition: transform 160ms ease, filter 240ms ease;
+}
+
+.contact-info .info-item a:hover {
+    background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fd5949 30%, #d6249f 60%, #285AEB 100%);
+    color: white;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+.contact-info .info-item a:hover svg {
+    filter: brightness(0) invert(1);
+    transform: translateY(-1px);
+}
+
 .copyright {
     font-size: 0.8rem;
     color: #777;
